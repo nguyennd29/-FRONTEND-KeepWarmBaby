@@ -1,28 +1,99 @@
- <!DOCTYPE html>
- <html>
- <head>
+<!--Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Keep Warm Baby <3 </title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Keep warm baby</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./main.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <script src="./js/main.js"></script>
+    <link href="css/loginStyle.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
-    <div class="container">
-        <fieldset>
-            <form id="search" action="/" method="post">
-                <input id="keyword" name="city" type="text" class="ghost-input" placeholder="Enter a City" required>
-                <input type="submit" class="ghost-button" value="Get Weather">
-            </form>
-        </fieldset>
-    </div>
-    <div id="root">
 
-    </div>
+
+<header class="navbar navbar-expand-sm navbar-togglable navbar-dark">
+
+    <div class="container-fluid">
+
+
+
+        <!-- Brand -->
+            <a class="navbar-brand h1" href="#">
+                <!--<img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">-->
+                Keep Warm Baby <3</a>
+
+        <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <!-- Links -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-white">
+                        Log In
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-white">
+                        Register
+                    </a>
+                </li>
+
+                <li class="nav-item-divider">
+              <span class="nav-link">
+                <span></span>
+              </span>
+                </li>
+                <li class="nav-item">
+                    <a href="#" target="_blank" class="nav-link text-white">
+                        About us
+                    </a>
+                </li>
+            </ul>
+
+        </div> <!-- / .navbar-collapse -->
+
+    </div> <!-- / .container -->
+</header>
+
+
+
+<div class="container">
+        <form id="search" action="/" method="post">
+            <div class="input-group">
+            <input id="keyword" name="city" type="text" class="form-control" placeholder="Enter a City" required>
+            <input type="submit" class="input-group-append btn btn-primary" value="Get Weather">
+            </div>
+        </form>
+</div>
+
+
+
+
+
+
+
+<div id="root">
+
+</div>
+
 </body>
 </html>
