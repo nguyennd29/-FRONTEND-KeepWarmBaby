@@ -18,11 +18,11 @@ $(document).ready(function() {
 					`);
 			},
 			error: function() {
-				console.log("error");
-				$('#root').append(`<h1>
+                console.log("error");
+                $('#root').append(`<h1>
 					No Information! Please Try Again!
 					</h1>`);
-			} 
+            }
 		});
 	});
 });
