@@ -18,8 +18,6 @@
 // var password, confirm_password;
 //
 $(document).ready(function () {
-    // password = $('#password').val();
-    // confirm_password = $('#confirm_password').val();
     $('#register').validate({
         rules: {
             username: {
@@ -52,5 +50,25 @@ $(document).ready(function () {
             }
         },
         debug: true
+    });
+    $('#register').on('submit', function (e) {
+        e.preventDefault();
+        var name = $('#username').val();
+        var pass = $('#password').val();
+        $.ajax({
+            url: 'http://localhost:6969/api/user',
+            method: 'POST',
+            data: {username: name, password: pass},
+            success: function () {
+                window.location.href = '/login.html';
+            },
+            error: function (result) {
+                console.log("error");
+                $('#sign_fail').append(`<p>
+					Sign up fail! Try Again! 
+					</p>
+					`);
+            }
+        });
     });
 });

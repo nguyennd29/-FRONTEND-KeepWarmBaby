@@ -7,12 +7,16 @@ $(document).ready(function () {
             url: 'http://localhost:6969/api/auth/login',
             method: 'POST',
             data: {username: name, password: pass},
-            success: function (data) {
-                window.location.href = '/';
-
+            success: function () {
+                    window.location.href = '/';
             },
-            error: function () {
-                console.log("error");
+            error: function (result) {
+                console.log(result);
+                $('#log_fail').empty();
+                $('#log_fail').append(`<p>
+					${result.responseJSON.error}
+					</p>
+					`);
             }
         });
     });
