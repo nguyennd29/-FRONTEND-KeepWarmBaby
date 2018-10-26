@@ -8,7 +8,7 @@ $(document).ready(function () {
             method: 'POST',
             data: {username: name, password: pass},
             success: function () {
-                    window.location.href = '/';
+                    window.location.href = '/main.html';
             },
             error: function (result) {
                 console.log(result);
