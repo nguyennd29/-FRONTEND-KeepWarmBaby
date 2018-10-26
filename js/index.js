@@ -8,10 +8,13 @@ $(document).ready(function() {
 			method: 'GET',
 			success: function(data) {
 				// var img = 'http' + data.current.condition.icon; 
-				$('#root').append(`<h1>
+				$('#root').append(`
+					<div class="col-3">
+					<h1 class="text-white" id="temp">
 					${data.current.temp_c}°C 
 					</h1>
 					<img src=${data.current.condition.icon}> 
+					</div>
 					`);
 			},
 			error: function() {
