@@ -16,4 +16,22 @@ $(document).ready(function () {
         });
     });
 
+    $('#sending_mail').on('submit', function (e) {
+        e.preventDefault();
+        let mailx = $('#mail').val();
+        let mailContentx = $('#mail_content').val();
+        $.ajax({
+            url: 'http://localhost:6969/api/sending',
+            method: 'POST',
+            data: {mail: mailx,mailContent: mailContentx},
+            success: function() {
+                alert("Success");
+            },
+            error: function (result) {
+                $('#sending_fail').append(`
+                    <p>${JSON.stringify(result)}</p>
+                    `);
+            }
+        });
+    });
 });
