@@ -9,7 +9,7 @@ $(document).ready(function () {
             data: {username: name, password: pass},
             success: function (data) {
                 // if typeof data.redirect === 'string'
-                    window.location.href = data.redirect;
+                    window.location.href='/';
             },
             error: function (result) {
                 console.log(JSON.stringify(result));

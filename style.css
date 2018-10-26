@@ -263,6 +263,15 @@ form textarea {
   border-radius: 30px;
   color: white; }
 
+#loginbutton{
+  border: none;
+  background: #009ad8;
+  padding: 15px 40px;
+  margin-left: 9%;
+  margin-top:7px;
+  border-radius: 30px;
+  color: white; }
+
 .map {
   height: 220px; }
 
@@ -1598,7 +1607,7 @@ form textarea {
   margin-bottom: 10px;
   color: white;
   border: 2px solid #393c48;
-  background: transparent; }
+  background: #262936;; }
   .contact-form input:not([type="submit"]):hover, .contact-form input:not([type="submit"]):focus, .contact-form textarea:hover, .contact-form textarea:focus {
     border-color: #009ad8; }
 .contact-form textarea {
