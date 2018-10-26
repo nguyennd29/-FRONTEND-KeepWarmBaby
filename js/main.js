@@ -4,12 +4,14 @@ $(document).ready(function () {
         $.ajax({
             url: 'http://localhost:6969/api/auth/logout',
             method: 'DELETE',
-            data: {username: name, password: pass},
+            // data: {username: name, password: pass},
             success: function () {
-                window.location.href = '/login.html';
+                window.location.href = '/index.html';
             },
             error: function (result) {
-                
+                $('#out_fail').append(`
+                    <p>${JSON.stringify(result)}</p>
+                `)
             }
         });
     });

@@ -12,11 +12,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Keep warm baby</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./css/main.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+            integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+            integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+            crossorigin="anonymous"></script>
     <script src="./js/index.js"></script>
     <link href="css/loginStyle.css" rel="stylesheet" type="text/css" media="all"/>
     <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
@@ -30,14 +36,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div class="container-fluid">
 
 
-
         <!-- Brand -->
         <a class="navbar-brand h1" href="#">
             <!--<img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">-->
             Keep Warm Baby <3</a>
 
         <!-- Toggler -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -47,14 +53,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <!-- Links -->
             <ul class="navbar-nav ml-auto">
                 <!--<li class="nav-item">-->
-                    <!--<a href="/login.html" class="nav-link text-white">-->
-                        <!--Log In-->
-                    <!--</a>-->
+                <!--<a href="/login.html" class="nav-link text-white">-->
+                <!--Log In-->
+                <!--</a>-->
                 <!--</li>-->
                 <!--<li class="nav-item">-->
-                    <!--<a href="register.html" class="nav-link text-white">-->
-                        <!--Register-->
-                    <!--</a>-->
+                <!--<a href="register.html" class="nav-link text-white">-->
+                <!--Register-->
+                <!--</a>-->
                 <!--</li>-->
 
                 <li class="nav-item-divider">
@@ -80,20 +86,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </header>
 
 
-
 <div class="container">
     <form id="search" action="/" method="post">
         <div class="input-group">
             <input id="keyword" name="city" type="text" class="form-control" placeholder="Enter a City" required>
             <input type="submit" class="input-group-append btn btn-primary" value="Get Weather">
+            <div id="out_fail">
+
+            </div>
         </div>
     </form>
 </div>
-
-
-
-
-
 
 
 <div id="root">
