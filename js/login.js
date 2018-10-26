@@ -7,11 +7,12 @@ $(document).ready(function () {
             url: 'http://localhost:6969/api/auth/login',
             method: 'POST',
             data: {username: name, password: pass},
-            success: function () {
-                    window.location.href = `./main.html?id=${data._id}`;
+            success: function (data) {
+                // if typeof data.redirect === 'string'
+                    window.location.href = data.redirect;
             },
             error: function (result) {
-                console.log(result);
+                console.log(JSON.stringify(result));
                 $('#log_fail').empty();
                 $('#log_fail').append(`<p>
 					${result.responseJSON.error}
