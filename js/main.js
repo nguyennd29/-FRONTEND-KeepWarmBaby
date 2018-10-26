@@ -6,7 +6,7 @@ $(document).ready(function () {
             method: 'DELETE',
             // data: {username: name, password: pass},
             success: function () {
-                window.location.href = '/index.html';
+                window.location.href = './index.html';
             },
             error: function (result) {
                 $('#out_fail').append(`

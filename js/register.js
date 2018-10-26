@@ -60,7 +60,7 @@ $(document).ready(function () {
             method: 'POST',
             data: {username: name, password: pass},
             success: function () {
-                window.location.href = '/login.html';
+                window.location.href = './login.html';
             },
             error: function (result) {
                 console.log("error");
