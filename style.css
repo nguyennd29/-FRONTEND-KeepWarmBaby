@@ -1123,7 +1123,7 @@ form textarea {
  * Header Styles
  */
 .site-header {
-  padding: 50px 0; }
+  padding: 30px ; }
   .site-header .branding {
     float: left; }
     .site-header .branding .logo, .site-header .branding .logo-type {
@@ -1216,8 +1216,9 @@ form textarea {
 
 .hero {
   background-size: cover;
-  padding: 70px 0;
-  min-height: 350px; }
+  padding: 70px ;
+  height: 350px;
+}
 
 .find-location {
   position: relative;
@@ -1700,5 +1701,65 @@ img {
 }
 
 .mail-tab{
-  background-color: #19B0E7;
+background: #1e202b;
+  border-color: #009ad8;
+  color: #009ad8;
+  padding: 5px 25px;
+  border: 2px solid;
+  border-radius: 30px;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  font-weight: 400;
 }
+
+.add-tab{
+  background: #262936;
+}
+
+.add-icon{
+  font-size: 70px;
+  text-align: center;
+  margin-left:170px;
+
+}
+
+.add-icon:hover{
+  color: deepskyblue;
+  font-size: 70px;
+  text-align: center;
+  margin-left:170px;
+  cursor: pointer;
+
+}
+
+.fill-blank{
+  min-height: 185px;
+}
+
+.content-group-css{
+  margin-top: -280px;
+  margin-bottom: 70px;
+}
+
+
+#delete-button{
+  border: none;
+  background: red;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+}
+#delete-button:hover{
+  border: none;
+  background: darkred;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+}
+
+.input-box-css{
+  border-radius: 30px;
+}
+
+.input-tab{
+padding: 40px}
