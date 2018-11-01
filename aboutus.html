@@ -23,11 +23,11 @@
             integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
             crossorigin="anonymous"></script>
     <!-- Loading main css file -->
-
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"  integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+          crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-
-    <script src="./js/index.js"></script>
-    <script src="./js/main.js"></script>
+    <link rel="stylesheet" href="aboutus.css">
+   
 </head>
 
 
@@ -36,7 +36,7 @@
 <div class="site-content">
     <div class="site-header">
         <div class="container">
-            <a href="main.html" class="branding">
+            <a href="index.html" class="branding animated fadeInDown">
                 <img src="images/logo.png" alt="" class="logo">
                 <div class="logo-type">
                     <h1 class="site-title">Keep Warm Baby</h1>
@@ -47,7 +47,7 @@
             <!-- Default snippet for navigation -->
             <div class="main-navigation">
                 <button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
-                <ul class="menu">
+                <ul class="menu animated fadeInDown">
                     <li class="menu-item"><a href="index.html">Home</a></li>
                     <li class="menu-item"><a href="login.html">Log In</a></li>
                     <li class="menu-item"><a href="register.html">Register</a></li>
@@ -61,26 +61,36 @@
     </div> <!-- .site-header -->
 
     <div class="hero" data-bg-image="images/banner8.jpeg">
-        <div class="container">
-            <!--<form id="search" action="/" class="find-location" method="post">-->
-            <!--<input id="keyword" name="city" type="text" placeholder="Find your location...">-->
-            <!--<input type="submit" value="Get Weather">-->
-            <!--</form>-->
-            <div class="agent row">
-                <a class="span2 overlay" href="#" title="agent name">
-                    <div class="image-cropper">
-                        <img alt="image" class="rounded"
-                             src="https://scontent.fhan2-2.fna.fbcdn.net/v/t1.0-9/27867270_1285720968195007_252394911663932798_n.jpg?_nc_cat=111&_nc_ht=scontent.fhan2-2.fna&oh=d11584306c1d5f659653643fb80f35b6&oe=5C854E3A">
+   
+            <div class="agent-container d-flex justify-content-start align-items-stretch">
+                    <div class="agent-tab col-5 row animated fadeInLeftBig" id="delay-tab">
+                            <div class="image-cropper col-4">
+                                <img alt="image" class="photo-img"
+                                    src="https://scontent.fhan2-2.fna.fbcdn.net/v/t1.0-9/27867270_1285720968195007_252394911663932798_n.jpg?_nc_cat=111&_nc_ht=scontent.fhan2-2.fna&oh=d11584306c1d5f659653643fb80f35b6&oe=5C854E3A">
+                            </div>
+        
+                            <div class="agent-content col-7">
+                                <h2 style="font-weight: normal;">Phạm Đại Thanh Phong</h2>
+                                <p style="font-size: 17px; font-style: italic">Web full "snack"</p>
+                            </div>
+                    
                     </div>
-                </a>
-                <div class="span6">
-                    <div class="agent-content">
-                        <h3 style="font-weight: normal;">Phạm Đại Thanh Phong</h3>
-                        <p>Full "snack"</p>
-                    </div>
+                <div class="agent-tab col-5 row animated fadeInLeftBig">
+                        <div class="image-cropper col-4">
+                            <img alt="image" class="photo-img" 
+                                src="/images/ava.jpg">
+                                
+                        </div>
+    
+                        <div class="agent-content col-7">
+                            <h2 style="font-weight: normal;">Nguyễn Duy Nguyên</h2>
+                            <p style="font-size: 17px; font-style: italic">Hate web-coding</p>
+                        </div>
+                
                 </div>
             </div>
-        </div>
+            
+      
     </div>
 
     <main class="main-content">
@@ -90,7 +100,7 @@
 
     <footer class="site-footer">
         <div class="container">
-            <p class="colophon text-right">Created by HEDSPI4K Team.</p>
+            <p class="colophon text-right  animated lightSpeedIn team-name">Created by HEDSPI4K Team.</p>
         </div>
     </footer> <!-- .site-footer -->
 </div>

@@ -1749,3 +1749,23 @@ padding: 40px}
   animation-delay:0.5s;
 
 }
+
+#password{
+  animation-delay: 0.2s;
+}
+
+
+#confirm_password{
+  animation-delay: 0.4s;
+}
+
+#loginbutton{
+  animation-delay: 0.5s;
+}
+
+
+#icon0 img{
+  height: 140px;
+  width: 140px;
+  margin-top:-38px;
+}
