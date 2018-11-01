@@ -1,12 +1,22 @@
 $(document).ready(function() {
-	$('#search').on('submit', function(e) {
+    $('#fill-blank').hide();
+    $('#loading-icon').hide();
+
+    $('#search').on('submit', function(e) {
 		e.preventDefault();
 		const city_name = $('#keyword').val();
 		 // $('#root').empty();
-		$.ajax({
+        $('#forecast-table').hide();
+        $('#fill-blank').show();
+        $('#loading-icon').show();
+
+        $.ajax({
 			url:`https://api.apixu.com/v1/forecast.json?key=e51fc4c9af264ce69be71045182010&q=${city_name}&days=7`,
 			method: 'GET',
 			success: function(data) {
+                $('#loading-icon').hide();
+                $('#forecast-table').show();
+                $('#fill-blank').hide();
 				// var img = 'http' + data.current.condition.icon; 
 				$('#day0').html(`${data.forecast.forecastday[0].date}`)
                 $('.location').html(`${data.location.name}`)

@@ -51,6 +51,7 @@ $(document).ready(function () {
         },
         debug: true
     });
+    
     $('#register').on('submit', function (e) {
         e.preventDefault();
         var name = $('#username').val();

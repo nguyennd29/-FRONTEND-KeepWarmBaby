@@ -1188,7 +1188,9 @@ form textarea {
         font-weight: 400; }
       .main-navigation .menu .menu-item.current-menu-item a, .main-navigation .menu .menu-item:hover a {
         border-color: #009ad8;
-        color: #009ad8; }
+        color: #009ad8;
+
+      }
 
 .mobile-navigation {
   padding: 30px 0 0;
@@ -1236,6 +1238,7 @@ form textarea {
     padding: 0 40px; }
 
 .forecast-container {
+
   width: 100%;
   background: #323544;
   display: table;
@@ -1700,37 +1703,7 @@ img {
   width: auto;
 }
 
-.mail-tab{
-background: #1e202b;
-  border-color: #009ad8;
-  color: #009ad8;
-  padding: 5px 25px;
-  border: 2px solid;
-  border-radius: 30px;
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
-  font-weight: 400;
-}
 
-.add-tab{
-  background: #262936;
-}
-
-.add-icon{
-  font-size: 70px;
-  text-align: center;
-  margin-left:170px;
-
-}
-
-.add-icon:hover{
-  color: deepskyblue;
-  font-size: 70px;
-  text-align: center;
-  margin-left:170px;
-  cursor: pointer;
-
-}
 
 .fill-blank{
   min-height: 185px;
@@ -1763,3 +1736,16 @@ background: #1e202b;
 
 .input-tab{
 padding: 40px}
+
+.forecast-table{
+  animation-delay:0.3s;
+}
+
+.search-box{
+  width: 100%;
+}
+
+.team-name{
+  animation-delay:0.5s;
+
+}

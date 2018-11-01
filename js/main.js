@@ -34,4 +34,25 @@ $(document).ready(function () {
             }
         });
     });
+
+    $('#add-button').on('click',function(e){
+        console.log('clicked');
+        $('.add-tab').before(` <div class="mail-tab col-5 input-tab">
+        <form id="sending_mail">
+            <div class="form-group receiver">
+                <label for="mail">Email address</label>
+                <input type="email" class="form-control input-box-css" id="mail" aria-describedby="emailHelp" placeholder="Enter email">
+                <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+            </div>
+            <div class="form-group mail_content">
+                <label for="mail-content">Write your message</label>
+                <textarea class="form-control input-box-css" id="mail-content" rows="15"></textarea>
+            </div>
+            <input type="submit" id="mail-button" class="btn btn-primary" value="Save"></input>
+            <input type="submit" class="btn btn-danger" id="delete-button" value="Delete"></input>
+
+        </form>
+    </div>`);
+    
+    })
 });

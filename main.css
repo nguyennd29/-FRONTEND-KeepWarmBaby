@@ -1,0 +1,46 @@
+.mail-tab{
+    background: #1e202b;
+    border-color: #009ad8;
+    color: #009ad8;
+    padding: 5px 25px;
+    border: 2px solid;
+    border-radius: 30px;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+    font-weight: 400;
+    margin:35px;
+    min-height: 500px;
+}
+
+.add-tab{
+    background: #262936;
+}
+
+.add-icon{
+    font-size: 90px;
+    text-align: center;
+    margin-left:41%;
+
+}
+
+.add-icon:hover{
+    color: deepskyblue;
+    font-size: 90px;
+    text-align: center;
+    margin-left:41%;
+    cursor: pointer;
+
+}
+
+#log_out{
+    border-color: red;
+    color: red;
+}
+
+#log_out:hover {
+    border-color: darkred;
+}
+
+.content-group-css{
+    flex-wrap: wrap;
+}
