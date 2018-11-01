@@ -21,7 +21,7 @@ $(document).ready(function () {
         let mailx = $('#mail').val();
         let mailContentx = $('#mail_content').val();
         $.ajax({
-            url: 'http://localhost:6969/api/sending',
+            url: 'https://svflirt.herokuapp.com/api/sending'||'http://localhost:6969/api/sending',
             method: 'POST',
             data: {mail: mailx,mailContent: mailContentx},
             success: function() {
