@@ -1,6 +1,5 @@
-let count = 1;
-
 $(document).ready(function () {
+    let count = 1;
     $('#form2').hide();
     $('#form3').hide();
     $('#form1').hide();
@@ -9,7 +8,7 @@ $(document).ready(function () {
     let uid = captured ? captured : 1;
     console.log(uid);
     $.ajax({
-        url: `http://localhost:6969/api/flirt/${uid}`,
+        url: `https://svflirt.herokuapp.com/api/flirt/${uid}` ||`http://localhost:6969/api/flirt/${uid}`,
         method: 'GET',
         success: function (data) {
             // console.log(data);
@@ -46,7 +45,7 @@ $(document).ready(function () {
     $('#log_out').on("click", function (e) {
         e.preventDefault();
         $.ajax({
-            url: 'http://localhost:6969/api/auth/logout',
+            url: `https://svflirt.herokuapp.com/api/auth/logout` ||`http://localhost:6969/api/auth/logout`,
             method: 'DELETE',
             // data: {username: name, password: pass},
             success: function () {
@@ -66,7 +65,7 @@ $(document).ready(function () {
         let mailContentx = $('#mail_content').val();
         $.ajax({
             // url: 'https://svflirt.herokuapp.com/api/sending'||'http://localhost:6969/api/sending',
-            url: `http://localhost:6969/api/flirt/${uid}`,
+            url: `https://svflirt.herokuapp.com/api/flirt/${uid}`||`http://localhost:6969/api/flirt/${uid}`,
             method: 'POST',
             data: {mail: mailx, mailContent: mailContentx},
             success: function () {
@@ -90,7 +89,7 @@ $(document).ready(function () {
         console.log(uid);
         $.ajax({
             // url: 'https://svflirt.herokuapp.com/api/sending'||'http://localhost:6969/api/sending',
-            url: `http://localhost:6969/api/flirt/${uid}`,
+            url: `https://svflirt.herokuapp.com/api/flirt/${uid}`||`http://localhost:6969/api/flirt/${uid}`,
             method: 'POST',
             data: {mail: mailx, mailContent: mailContentx},
             success: function () {
@@ -114,7 +113,7 @@ $(document).ready(function () {
         console.log(uid);
         $.ajax({
             // url: 'https://svflirt.herokuapp.com/api/sending'||'http://localhost:6969/api/sending',
-            url: `http://localhost:6969/api/flirt/${uid}`,
+            url: `https://svflirt.herokuapp.com/api/flirt/${uid}`||`http://localhost:6969/api/flirt/${uid}`,
             method: 'POST',
             data: {mail: mailx, mailContent: mailContentx},
             success: function () {
@@ -138,7 +137,7 @@ $(document).ready(function () {
         console.log(uid);
         $.ajax({
             // url: 'https://svflirt.herokuapp.com/api/sending'||'http://localhost:6969/api/sending',
-            url: `http://localhost:6969/api/flirt/${uid}`,
+            url: `https://svflirt.herokuapp.com/api/flirt/${uid}`||`http://localhost:6969/api/flirt/${uid}`,
             method: 'POST',
             data: {mail: mailx, mailContent: mailContentx},
             success: function () {
@@ -161,7 +160,7 @@ $(document).ready(function () {
         let fid = 0;
         $.ajax({
             // url: 'https://svflirt.herokuapp.com/api/sending'||'http://localhost:6969/api/sending',
-            url: `http://localhost:6969/api/flirt/${uid}/0`,
+            url: `https://svflirt.herokuapp.com/api/flirt/${uid}/0`||`http://localhost:6969/api/flirt/${uid}/0`,
             method: 'DELETE',
             // data: {mail: mailx,mailContent: mailContentx},
             success: function () {
@@ -184,7 +183,7 @@ $(document).ready(function () {
         let fid = 0;
         $.ajax({
             // url: 'https://svflirt.herokuapp.com/api/sending'||'http://localhost:6969/api/sending',
-            url: `http://localhost:6969/api/flirt/${uid}/1`,
+            url: `https://svflirt.herokuapp.com/api/flirt/${uid}/1`||`http://localhost:6969/api/flirt/${uid}/1`,
             method: 'DELETE',
             // data: {mail: mailx,mailContent: mailContentx},
             success: function () {
@@ -207,7 +206,7 @@ $(document).ready(function () {
         let fid = 0;
         $.ajax({
             // url: 'https://svflirt.herokuapp.com/api/sending'||'http://localhost:6969/api/sending',
-            url: `http://localhost:6969/api/flirt/${uid}/2`,
+            url: `https://svflirt.herokuapp.com/api/flirt/${uid}/2`||`http://localhost:6969/api/flirt/${uid}/2`,
             method: 'DELETE',
             // data: {mail: mailx,mailContent: mailContentx},
             success: function () {
@@ -228,8 +227,8 @@ $(document).ready(function () {
         let uid = captured ? captured : 1;
         console.log(uid);
         $.ajax({
-            // url: 'https://svflirt.herokuapp.com/api/sending'||'http://localhost:6969/api/sending',
-            url: `http://localhost:6969/api/flirt/${uid}/3`,
+            url: `https://svflirt.herokuapp.com/api/flirt/${uid}/3`||`http://localhost:6969/api/flirt/${uid}/3`,
+            // url: `http://localhost:6969/api/flirt/${uid}/3`,
             method: 'DELETE',
             // data: {mail: mailx,mailContent: mailContentx},
             success: function () {
