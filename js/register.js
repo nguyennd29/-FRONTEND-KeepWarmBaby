@@ -33,8 +33,8 @@ $(document).ready(function () {
             $('#name_fail').html("Your name should at least 5 characters in length...!!!!!!");
         } else {
             $.ajax({
-                // url: 'https://svflirt.herokuapp.com/api/user'||'http://localhost:6969/api/user',
-                url: 'http://localhost:6969/api/user',
+                url: 'https://svflirt.herokuapp.com/api/user'||'http://localhost:6969/api/user',
+                // url: 'http://localhost:6969/api/user',
                 method: 'POST',
                 data: {username: name, password: pass},
                 success: function () {
