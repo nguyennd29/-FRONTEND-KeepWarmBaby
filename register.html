@@ -18,7 +18,6 @@
     <script src="js-template/ie-support/html5.js"></script>
     <script src="js-template/ie-support/respond.js"></script>
     <![endif]-->
-
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
@@ -27,6 +26,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"  integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
           crossorigin="anonymous">
+    <!--<script src="./node_modules/jquery/dist/jquery.min.js"></script>-->
+    <!--<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.js"></script>-->
+    <!--<script src="./node_modules/jquery-validation/dist/jquery.validate.min.js"></script>-->
     <script src="./js/register.js"></script>
 
 
@@ -69,18 +71,23 @@
             <!--<input type="submit" value="Get Weather">-->
             <!--</form>-->
 
-            <form action="#" class="contact-form" method="post" id="login">
+            <form class="contact-form" method="post" id="register">
+                <!--<form action="#" class="contact-form" method="post" id="login">-->
+
                 <div class="row">
                     <div class="col-md-4"><input class="animated fadeInLeft" id="username" type="text"  name="name" placeholder="Pick a username"/></div>
+                    <div id="name_fail"></div>
                 </div>
 
                 <div class="row">
                     <div class="col-md-4"><input class="animated fadeInLeft" id="password" type="password"  name="password" placeholder="Create a password"/>
                     </div>
+                    <div id="pass_fail"></div>
                 </div>
                 <div class="row">
                     <div class="col-md-4"><input class="animated fadeInLeft" id="confirm_password" type="password" name="confirm_password" placeholder="Confirm Password"/>
                     </div>
+                    <div id="re_pass_fail"></div>
                 </div>
 
                 <div id="sign_fail">
