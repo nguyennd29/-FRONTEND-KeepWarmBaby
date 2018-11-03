@@ -61,8 +61,8 @@ $(document).ready(function () {
 
     $('#sending_mail1').on('submit', function (e) {
         e.preventDefault();
-        let mailx = $('#mail').val();
-        let mailContentx = $('#mail_content').val();
+        let mailx = $('#mail0').val();
+        let mailContentx = $('#mail_content0').val();
         $.ajax({
             // url: 'https://svflirt.herokuapp.com/api/sending'||'http://localhost:6969/api/sending',
             url: `https://svflirt.herokuapp.com/api/flirt/${uid}`||`http://localhost:6969/api/flirt/${uid}`,
@@ -81,8 +81,8 @@ $(document).ready(function () {
 
     $('#sending_mail2').on('submit', function (e) {
         e.preventDefault();
-        let mailx = $('#mail').val();
-        let mailContentx = $('#mail_content').val();
+        let mailx = $('#mail1').val();
+        let mailContentx = $('#mail_content1').val();
         let url = window.location.href; // or window.location.href for current url
         let captured = /id=([^&]+)/.exec(url)[1]; // Value is in [1] ('384' in our case)
         let uid = captured ? captured : 1;
@@ -105,8 +105,8 @@ $(document).ready(function () {
 
     $('#sending_mail3').on('submit', function (e) {
         e.preventDefault();
-        let mailx = $('#mail').val();
-        let mailContentx = $('#mail_content').val();
+        let mailx = $('#mail2').val();
+        let mailContentx = $('#mail_content2').val();
         let url = window.location.href; // or window.location.href for current url
         let captured = /id=([^&]+)/.exec(url)[1]; // Value is in [1] ('384' in our case)
         let uid = captured ? captured : 1;
@@ -129,8 +129,8 @@ $(document).ready(function () {
 
     $('#sending_mail4').on('submit', function (e) {
         e.preventDefault();
-        let mailx = $('#mail').val();
-        let mailContentx = $('#mail_content').val();
+        let mailx = $('#mail3').val();
+        let mailContentx = $('#mail_content3').val();
         let url = window.location.href; // or window.location.href for current url
         let captured = /id=([^&]+)/.exec(url)[1]; // Value is in [1] ('384' in our case)
         let uid = captured ? captured : 1;
