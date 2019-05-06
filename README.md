@@ -40,6 +40,8 @@ This project is a part of Techkid Hackathon in Hanoi 2018.
 
 - HTML/CSS
 
+- [Weather API](https://www.apixu.com) - Apixu provides a complete Weather API solution which is free scalable and fully managed, fast XML and JSON format, simple to use.
+
 ### BACKEND
 - [NodeJS](https://nodejs.org/) - As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications.
 
