@@ -88,7 +88,7 @@ $ http-server
 
 ```
  You will then be able to access it at localhost:8080
- Make sure of your internet connection for the access to online elephantsql server.
+ Make sure of your internet connection for the access to online mlab server.
 
 ---
 
@@ -97,8 +97,8 @@ $ http-server
 
 | <a href="https://github.com/nguyennd29" target="_blank">**Nguyễn Duy Nguyên**</a> | <a href="https://github.com/Atanna128" target="_blank">**Bùi Ngọc Tú**</a> | 
 | :---: |:---:|
-| [![Nguyễn Duy Nguyên](http://hedspi-library.mybluemix.net/images/ava1.jpg?s=150)](https://github.com/nguyennd29)    | [![Bùi Ngọc Tú](http://hedspi-library.mybluemix.net/images/ava03.jpeg?s=50)](https://github.com/Atanna128) | 
-| <a href="http://github.com/nguyennd29" target="_blank">`github.com/nguyennd29`</a> | <a href="http://github.com/Atanna128" target="_blank">`github.com/Atanna128`</a> |
+| [![Nguyễn Duy Nguyên](http://hedspi-library.mybluemix.net/images/ava1.jpg?s=150)](https://github.com/nguyennd29)    | [![Phạm Đại Thanh Phong](https://scontent.fhan2-4.fna.fbcdn.net/v/t1.0-9/51828221_1697518477015252_5401149622167011328_n.jpg?_nc_cat=110&_nc_oc=AQnPou2qRvp2MCr46tJFJUJ-DlDnREv7cYY4s1qWXYf6ilD-jJgO7aRQF6WpseVb978&_nc_ht=scontent.fhan2-4.fna&oh=e6d215c421c0df96c5f547d8b6fde145&oe=5D301A1D)](https://github.com/phongphamdt) | 
+| <a href="http://github.com/nguyennd29" target="_blank">`github.com/nguyennd29`</a> | <a href="https://github.com/phongphamdt" target="_blank">`github.com/phongphamdt`</a> |
 
 
 ---
