@@ -93,9 +93,9 @@ $ http-server
 ---
 ## Team
 
-[![Harsh Vijay](https://avatars1.githubusercontent.com/u/12688534?v=3&s=144)](https://github.com/iharsh234)  | [![Quandl.com](https://github.com/iharsh234/WebApp/blob/master/images/quandl.jpg)](https://www.quandl.com/)
+[![Nguyễn Duy Nguyên](http://hedspi-library.mybluemix.net/images/ava1.jpg?s=150)](https://github.com/nguyennd29?s=100v=3&s=144)](https://github.com/iharsh234)  | [![Phạm Đại Thanh Phong](https://github.com/iharsh234/WebApp/blob/master/images/quandl.jpg)](https://www.quandl.com/)
 ---|---
-[Harsh Vijay ](https://github.com/iharsh234) |[Quandl](https://www.quandl.com)
+[Nguyễn Duy Nguyên](https://github.com/nguyennd29) |[Phạm Đại Thanh Phong](github.com/phongphamdt)
 
 ## Team
 
