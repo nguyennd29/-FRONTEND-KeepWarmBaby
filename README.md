@@ -22,15 +22,14 @@ This project is a part of Techkid Hackathon in Hanoi 2018.
 ## Screenshots
 
 ### Landing Page
-Currently it is working on all NSE (India) Stocks, BSE (India) Stocks Symbol will be added soon.
 
-![](https://scontent.fhan3-1.fna.fbcdn.net/v/t1.0-9/59649002_2346217765656050_4378662537718136832_o.jpg?_nc_cat=109&_nc_oc=AQn13A2YUtq0X95_qzoedrn_fvNzSRhi3hTPMeKqltrjRSDNZ_Aq1DO3JSwmwKjY5TFv8HuTRB82u1kWYJVzWGV_&_nc_ht=scontent.fhan3-1.fna&oh=0251f5293f5f4887be6c287183e853f1&oe=5D737BB5)
+![](https://scontent.fhan4-1.fna.fbcdn.net/v/t1.0-9/59555774_2346289158982244_3823402319513387008_o.jpg?_nc_cat=104&_nc_oc=AQm-9Wn5xcI-2mnPwG-ncFFB9-sTtAA2OQl99vQiCcX0GEQe8_A7P4QWeFwjh3yUvoWcemS4srdpdrBeoreRjB__&_nc_ht=scontent.fhan4-1.fna&oh=554f6b3eea4db333abfb7621264c6241&oe=5D6EA37A)
 
 ### Login Page
-![](https://scontent.fhan4-1.fna.fbcdn.net/v/t1.0-9/59558750_2346217758989384_4454688982185279488_o.jpg?_nc_cat=104&_nc_oc=AQnCa_78USg2baHTwTrr_-xhWaBZtcqigxoee-BeBiJ58l4ivTR75KA2yogcWOOvB7Rs3KhVsDj-L6cXIDtzKDTg&_nc_ht=scontent.fhan4-1.fna&oh=21d45639a5661c0379aedcb937226401&oe=5D6806FE)
+![](https://scontent.fhan3-1.fna.fbcdn.net/v/t1.0-9/59771677_2346289182315575_3821245485721583616_o.jpg?_nc_cat=111&_nc_oc=AQnuLmZSqYDXBiVjSa1p8SpGyvqSKQNnMeqHs6lY2FdG4gu_nIDziHGW6TOix0zGn8YuXCNKR7tp8aOGhgjeK6DP&_nc_ht=scontent.fhan3-1.fna&oh=6c91f8132b2b3d3e77f82d02a5c561fc&oe=5D295769)
 
 ### Message Input Page
-![](https://scontent.fhan3-3.fna.fbcdn.net/v/t1.0-9/59654826_2346217738989386_1529594208095043584_o.jpg?_nc_cat=101&_nc_oc=AQkoK5hIw5CSbxWoVzaWS1AwexTpHDDTu2Li4yyYcupZ585UYr9Y_AvnLnh7F0hfZny7-lsbIc-XxJIHrEIO2AgP&_nc_ht=scontent.fhan3-3.fna&oh=9d1cf3fd628444503c52d79f484eb4a1&oe=5D656217)
+![](https://scontent.fhan3-3.fna.fbcdn.net/v/t1.0-9/59446330_2346289142315579_5185745012133986304_o.jpg?_nc_cat=101&_nc_oc=AQlJYhMofpchMArXBJB3bfzqS3L5ukchBpnD5kpamy3MVvqxm0hPEfmv9wECu1aBDIS5M5hRODBXWRwxQI880JBk&_nc_ht=scontent.fhan3-3.fna&oh=13538801eb478d0b0310a6c5f5bbcd2d&oe=5D73782F)
 
 ---
 ## Technologies
@@ -39,7 +38,7 @@ Currently it is working on all NSE (India) Stocks, BSE (India) Stocks Symbol wil
 
 - [Bootstrap](http://getbootstrap.com/) - Extensive list of components and  Bundled Javascript plugins.
 
-- [HTML/CSS] 
+- HTML/CSS
 
 ### BACKEND
 - [NodeJS](https://nodejs.org/) - As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications.
