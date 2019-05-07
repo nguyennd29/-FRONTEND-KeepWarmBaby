@@ -100,7 +100,7 @@ $ http-server
 
 | <a href="https://github.com/nguyennd29" target="_blank">**Nguyễn Duy Nguyên**</a> | <a href="https://github.com/phongphamdt" target="_blank">**Phạm Đại Thanh Phong**</a> | 
 | :---: |:---:|
-| <img width="300"  src="http://hedspi-library.mybluemix.net/images/ava1.jpg">| <img width="300"  src="https://scontent.fhan2-4.fna.fbcdn.net/v/t1.0-9/51828221_1697518477015252_5401149622167011328_n.jpg?_nc_cat=110&_nc_oc=AQnPou2qRvp2MCr46tJFJUJ-DlDnREv7cYY4s1qWXYf6ilD-jJgO7aRQF6WpseVb978&_nc_ht=scontent.fhan2-4.fna&oh=e6d215c421c0df96c5f547d8b6fde145&oe=5D301A1D"> | 
+| <img width="200"  src="http://hedspi-library.mybluemix.net/images/ava1.jpg">| <img width="200"  src="https://scontent.fhan2-4.fna.fbcdn.net/v/t1.0-9/51828221_1697518477015252_5401149622167011328_n.jpg?_nc_cat=110&_nc_oc=AQnPou2qRvp2MCr46tJFJUJ-DlDnREv7cYY4s1qWXYf6ilD-jJgO7aRQF6WpseVb978&_nc_ht=scontent.fhan2-4.fna&oh=e6d215c421c0df96c5f547d8b6fde145&oe=5D301A1D"> | 
 | <a href="http://github.com/nguyennd29" target="_blank">`github.com/nguyennd29`</a> | <a href="https://github.com/phongphamdt" target="_blank">`github.com/phongphamdt`</a> |
 
 
