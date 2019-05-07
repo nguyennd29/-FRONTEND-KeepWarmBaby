@@ -14,7 +14,7 @@ ___
 * [License](#license)
 ---
 ## General info
-Winter is coming. You worry your lover do not notice the upcoming cold and forgot to wear warm enough? Don't worry. "Keep warm baby" was born to solve this problem. Not only a weather forcast website, "Keep warm baby" can also automatically remind your lover when ever temparature gets lower by sending emails with full of sweet words and flowers.
+Winter is coming. You worry your lover may not notice the upcoming cold and forget to wear warm enough? Don't worry. "Keep warm baby" was born to solve this problem. Not only a weather forcast website, "Keep warm baby" can also automatically remind your lover when ever temparature gets lower by sending emails with full of sweet words and flowers.
 This project is a part of Techkid Hackathon in Hanoi 2018.
 
 ---
